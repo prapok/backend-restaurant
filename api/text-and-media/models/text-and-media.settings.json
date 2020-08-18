@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "text_and_medias",
+  "info": {
+    "name": "text-and-media"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "pages": {
+      "collection": "pages"
+    },
+    "Section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-sections.page-intro"
+    }
+  }
+}

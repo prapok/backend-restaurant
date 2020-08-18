@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_imageslide_slides",
+  "info": {
+    "name": "Slide",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "SlideHeading": {
+      "type": "string"
+    },
+    "SlideSubtitle": {
+      "type": "string"
+    },
+    "SlideButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button-link"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

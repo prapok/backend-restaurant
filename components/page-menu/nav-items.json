@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_menu_nav_items",
+  "info": {
+    "name": "NavItems",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "pages": {
+      "collection": "pages"
+    }
+  }
+}

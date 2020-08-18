@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "publishedDate": {
+      "type": "datetime"
+    },
+    "featuredImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "Section": {
+      "type": "dynamiczone",
+      "components": [
+        "page-sections.page-intro",
+        "bg-text-block.block-text",
+        "section-fullwidth-image.full-width-image-section",
+        "services-box.box-list-item"
+      ]
+    },
+    "worker": {
+      "model": "workers",
+      "via": "pages"
+    },
+    "galleries": {
+      "via": "page",
+      "collection": "gallery"
+    },
+    "food_menus": {
+      "via": "page",
+      "collection": "food-menu"
+    }
+  }
+}

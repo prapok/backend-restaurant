@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/homepage-slider",
+      "handler": "homepage-slider.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/homepage-slider",
+      "handler": "homepage-slider.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/homepage-slider",
+      "handler": "homepage-slider.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

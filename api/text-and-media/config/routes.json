@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/text-and-media",
+      "handler": "text-and-media.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/text-and-media",
+      "handler": "text-and-media.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/text-and-media",
+      "handler": "text-and-media.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

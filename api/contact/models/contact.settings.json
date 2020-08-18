@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ContactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.contact-details"
+    },
+    "SocialNetLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-networks.social-links"
+    }
+  }
+}

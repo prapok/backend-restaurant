@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_fullwidth_image_full_width_image_sections",
+  "info": {
+    "name": "fullWidthImageSection",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

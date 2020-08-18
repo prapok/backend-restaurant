@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_services_box_box_list_items",
+  "info": {
+    "name": "BoxListItem",
+    "icon": "tasks"
+  },
+  "options": {},
+  "attributes": {
+    "SectionHeading": {
+      "type": "string"
+    },
+    "subHeadingSection": {
+      "type": "richtext"
+    },
+    "cardListBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list-card-image.card-list"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_sliders",
+  "info": {
+    "name": "HomepageSlider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "HomeSlider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-slider.hero-slider"
+    }
+  }
+}

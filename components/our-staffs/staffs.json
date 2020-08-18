@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_our_staffs_staffs",
+  "info": {
+    "name": "Staffs",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "StaffName": {
+      "type": "string"
+    },
+    "staffDesignation": {
+      "type": "string"
+    },
+    "Photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

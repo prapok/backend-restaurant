@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_list_card_image_card_lists",
+  "info": {
+    "name": "CardList",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "richtext"
+    },
+    "listImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

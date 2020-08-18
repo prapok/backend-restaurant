@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bg_text_block_block_texts",
+  "info": {
+    "name": "BlockText",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "BlockTextImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bg-text-block.block-text-image"
+    }
+  }
+}

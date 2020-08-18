@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_pagedesc_page_intros",
+  "info": {
+    "name": "MediaTextSection",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sectionImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "readMoreBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button-link"
+    },
+    "columnOrderImage": {
+      "type": "integer"
+    }
+  }
+}

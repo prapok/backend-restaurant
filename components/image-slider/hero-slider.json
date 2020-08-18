@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_image_slider_hero_sliders",
+  "info": {
+    "name": "HeroSlider",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "Slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "imageslide.slide"
+    }
+  }
+}

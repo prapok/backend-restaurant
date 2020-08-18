@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workers",
+  "info": {
+    "name": "Workers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "richtext"
+    },
+    "Workers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "our-staffs.staffs"
+    },
+    "pages": {
+      "via": "worker",
+      "collection": "pages"
+    }
+  }
+}

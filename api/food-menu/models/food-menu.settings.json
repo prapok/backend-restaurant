@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "food_menus",
+  "info": {
+    "name": "FoodMenu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "foodItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "food-menu.resturant-menu-item"
+    },
+    "page": {
+      "model": "pages",
+      "via": "food_menus"
+    }
+  }
+}
